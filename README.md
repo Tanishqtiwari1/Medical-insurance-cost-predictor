@@ -171,7 +171,7 @@ python -m src.export_web
 
 ## Deploy the website (GitHub Pages)
 
-Push the repository, then go to **Settings → Pages → Build and deployment**. Choose **Deploy from a branch**, select branch `main` and folder **`/docs`** (not `/ (root)`, which would show this README instead), and save. The site goes live at https://tanishqtiwari1.github.io/Medical-insurance-cost-predictor/ within a minute or two.
+Push the repository, then go to **Settings → Pages → Build and deployment**. Choose **Deploy from a branch**, select branch `main` and folder **`/docs`**, and save. If Pages publishes `/ (root)` instead, the small `index.html` at the root redirects visitors to `docs/`, so the link works either way. The site goes live at https://tanishqtiwari1.github.io/Medical-insurance-cost-predictor/ within a minute or two.
 
 ## Limitations and future work
 
